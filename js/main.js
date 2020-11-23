@@ -6,7 +6,7 @@ const app = new Vue({
         emails:[]
     },
 
-    create(){
+    created(){
         return this.getEmail();
     },
 
@@ -24,9 +24,7 @@ const app = new Vue({
                 
                     // handle error
                     console.log(error);
-                });
-                
-                
+                }); 
             }
         }
     }
